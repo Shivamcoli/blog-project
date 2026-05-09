@@ -1,16 +1,105 @@
-# React + Vite
+# Blog Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack blog application built using React, Vite, Appwrite, TinyMCE, and Tailwind CSS.  
+Users can create, edit, delete, and manage blog posts with authentication support.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://blog-project-personal-projects.appwrite.network/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- User Authentication (Sign Up / Login / Logout)
+- Create Blog Posts
+- Edit Existing Posts
+- Delete Posts
+- Rich Text Editor using TinyMCE
+- Image Upload Support
+- Responsive UI
+- Protected Routes
+- Appwrite Backend Integration
+- State Management using Redux Toolkit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Redux Toolkit
+- React Router DOM
+
+### Backend / Services
+- Appwrite
+
+### Editor
+- TinyMCE
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── appwrite/        # Appwrite services
+├── components/      # Reusable UI components
+├── conf/            # Configuration files
+├── pages/           # Application pages
+├── store/           # Redux store
+├── assets/          # Static assets
+└── main.jsx
+
+
+⚙️ Environment Variables
+
+Create a .env file in the root directory and add:
+
+VITE_APPWRITE_URL=
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_COLLECTION_ID=
+VITE_APPWRITE_STORAGE_ID=
+VITE_TINYMCE_API_KEY=
+
+📦 Installation
+
+Clone the repository:
+
+git clone https://github.com/Shivamcoli/blog-project.git
+
+Move into the project folder:
+
+cd blog-project
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
+npm run dev
+🧑‍💻 Deployment
+
+This project is deployed using Appwrite Hosting.
+
+Live URL:
+
+🔗 https://blog-project-personal-projects.appwrite.network/
+
+📸 Screenshots
+
+Add your project screenshots here.
+
+🙌 Author
+
+Shivam
+
+GitHub: https://github.com/Shivamcoli
+📄 License
+
+This project is open source and available under the MIT License.
